@@ -13,7 +13,7 @@ const Project = () => {
 
         <div className="project-card">
           <img src={studentImg} alt="Student Management" className="project-image" />
-          <h3>Student Management System</h3>
+          <h3>Catering Service</h3>
           <p>
             A web app built using Java, Spring Boot, MySQL, and React to manage student data with CRUD features and login.
           </p>
