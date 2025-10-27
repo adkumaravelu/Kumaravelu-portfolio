@@ -10,14 +10,13 @@ const Experience = () => {
       responsibilities: [
         "Developed responsive web applications using PHP and JavaScript.",
         "Integrated RESTful APIs and optimized database queries for performance.",
-        "Collaborated with designers and backend teams to deliver scalable features."
+        "Collaborated with designers and backend teams to deliver scalable features.",
       ],
     },
-    
   ];
 
   return (
-    <div className="experience-container">
+    <section id="Experience" className="experience-container">
       <h1 className="experience-title">Work Experience</h1>
 
       <div className="experience-list">
@@ -35,7 +34,7 @@ const Experience = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
