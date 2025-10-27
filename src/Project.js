@@ -3,7 +3,7 @@ import "./Project.css";
 
 import studentImg from "./assets/images/Catring-Service.jpg";
 import portfolioImg from "./assets/images/portfolio.png";
-// import ecommerceImg from "./assets/images/ecommerce-api.png";
+import ecommerceImg from "./assets/images/ecommerce-api.png";
 
 const Project = () => {
   return (
@@ -33,7 +33,16 @@ const Project = () => {
           </a>
         </div>
 
-        
+        <div className="project-card">
+          <img src={ecommerceImg} alt="E-commerce API" className="project-image" />
+          <h3>E-commerce API</h3>
+          <p>
+            A RESTful API built with Spring Boot and Hibernate for managing products, users, and orders in an online store.
+          </p>
+          <a href="https://your-ecommerce-link.com" target="_blank" rel="noopener noreferrer" className="project-button">
+            🔗 View Project
+          </a>
+        </div>
 
       </div>
     </section>
